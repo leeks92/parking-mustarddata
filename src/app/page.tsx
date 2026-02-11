@@ -184,7 +184,7 @@ export default function HomePage() {
         <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
           빠른 메뉴
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           <Link
             href="/free"
             className="group bg-green-50 rounded-2xl border border-green-100 p-6 hover:shadow-lg hover:border-green-200 transition-all"
@@ -207,6 +207,18 @@ export default function HomePage() {
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed">
               주차 시간을 입력하면 주변 주차장 요금을 한눈에 비교합니다.
+            </p>
+          </Link>
+          <Link
+            href="/near"
+            className="group bg-violet-50 rounded-2xl border border-violet-100 p-6 hover:shadow-lg hover:border-violet-200 transition-all"
+          >
+            <div className="text-4xl mb-4">📍</div>
+            <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-violet-600 transition-colors">
+              근처 주차장
+            </h3>
+            <p className="text-sm text-gray-600 leading-relaxed">
+              강남역, 서울역, 코엑스 등 주요 장소 근처 주차장을 찾으세요.
             </p>
           </Link>
         </div>

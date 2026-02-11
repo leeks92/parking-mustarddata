@@ -1,5 +1,6 @@
-import type { ParkingLot, Region } from './types';
+import type { ParkingLot, Region, LandmarkData } from './types';
 import rawData from '../../data/parking-lots.json';
+import landmarkRaw from '../../data/landmark-parking.json';
 
 const parkingLots: ParkingLot[] = rawData as unknown as ParkingLot[];
 
@@ -184,4 +185,49 @@ export function getSigunguList(sido: string): string[] {
     }
   }
   return Array.from(sigunguSet).sort();
+}
+
+// ─── 랜드마크 관련 ───
+
+const landmarkData = landmarkRaw as Record<string, LandmarkData>;
+
+const MIN_LANDMARK_LOTS = 5;
+
+export function getAllLandmarks(): LandmarkData[] {
+  return Object.values(landmarkData).filter((d) => d.total >= MIN_LANDMARK_LOTS);
+}
+
+export function getAllLandmarkSlugs(): string[] {
+  return Object.entries(landmarkData)
+    .filter(([, d]) => d.total >= MIN_LANDMARK_LOTS)
+    .map(([slug]) => slug);
+}
+
+export function getLandmarkBySlug(slug: string): LandmarkData | undefined {
+  const data = landmarkData[slug];
+  if (!data || data.total < MIN_LANDMARK_LOTS) return undefined;
+  return data;
+}
+
+// 좌표 기반 근처 주차장 찾기 (Haversine 근사, 반경 km)
+export function getParkingNearCoords(
+  lat: number,
+  lng: number,
+  radiusKm: number = 1.0,
+  maxCount: number = 50
+): ParkingLot[] {
+  const KM_PER_DEG_LAT = 111.32;
+  const KM_PER_DEG_LNG = 111.32 * Math.cos((lat * Math.PI) / 180);
+
+  return parkingLots
+    .map((p) => {
+      const dLat = (p.lat - lat) * KM_PER_DEG_LAT;
+      const dLng = (p.lng - lng) * KM_PER_DEG_LNG;
+      const distKm = Math.sqrt(dLat * dLat + dLng * dLng);
+      return { lot: p, distKm };
+    })
+    .filter((item) => item.distKm <= radiusKm && item.lot.lat !== 0)
+    .sort((a, b) => a.distKm - b.distKm)
+    .slice(0, maxCount)
+    .map((item) => item.lot);
 }

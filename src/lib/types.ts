@@ -36,3 +36,23 @@ export interface Sigungu {
   code: string;
   parkingCount: number;
 }
+
+export interface LandmarkInfo {
+  name: string;
+  slug: string;
+  lat: number;
+  lng: number;
+  category: string;
+  description: string;
+}
+
+export interface LandmarkData {
+  landmark: LandmarkInfo;
+  total: number;
+  free: number;
+  paid: number;
+  public: number;
+  avgBaseFee: number;
+  avgAddFee: number;
+  avgDailyMax: number;
+}

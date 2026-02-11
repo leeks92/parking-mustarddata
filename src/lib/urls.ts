@@ -13,6 +13,12 @@ export const MAIN_PAGES = [
     description: '주차 시간을 입력하면 주변 주차장 요금을 한눈에 비교합니다.',
     emoji: '💰',
   },
+  {
+    path: '/near',
+    title: '근처 주차장',
+    description: '주요 장소 근처 공영·무료 주차장을 찾아보세요.',
+    emoji: '📍',
+  },
 ];
 
 export const REGION_PAGES = [

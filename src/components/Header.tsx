@@ -7,6 +7,7 @@ const navItems = [
   { href: '/', label: '홈' },
   { href: '/region/seoul', label: '주차장 찾기' },
   { href: '/free', label: '무료 주차장' },
+  { href: '/near', label: '근처 주차장' },
   { href: '/compare', label: '요금 비교' },
 ];
 

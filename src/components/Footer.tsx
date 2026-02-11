@@ -42,6 +42,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/near" className="hover:text-indigo-600">
+                  근처 주차장
+                </Link>
+              </li>
+              <li>
                 <Link href="/compare" className="hover:text-indigo-600">
                   요금 비교
                 </Link>

@@ -5,6 +5,7 @@ import {
   sidoToSlug,
   sigunguToSlug,
   getAllParkingIds,
+  getAllLandmarkSlugs,
 } from '@/lib/parking-data';
 
 export const dynamic = 'force-static';
@@ -61,6 +62,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // Landmark (near) pages
+  const landmarkPages: MetadataRoute.Sitemap = getAllLandmarkSlugs().map((slug) => ({
+    url: `${BASE_URL}/near/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }));
+
   // Individual parking lot pages
   const parkingPages: MetadataRoute.Sitemap = getAllParkingIds().map((id) => ({
     url: `${BASE_URL}/parking/${id}`,
@@ -75,6 +84,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...regionPages,
     ...sigunguPages,
     ...freeSigunguPages,
+    ...landmarkPages,
     ...parkingPages,
   ];
 }

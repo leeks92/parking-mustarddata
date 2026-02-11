@@ -192,9 +192,10 @@ ${lm.name} 반경 1km 이내에 **${data.public}곳의 공영 주차장**이 있
   // CTA
   post += `## 더 많은 주차장 정보
 
-위 정보는 한국교통안전공단 데이터를 기반으로 작성되었습니다. ${lm.name} 근처의 **더 상세한 주차장 정보와 실시간 요금 비교**는 아래 사이트에서 확인할 수 있습니다.
+위 정보는 한국교통안전공단 데이터를 기반으로 작성되었습니다. ${lm.name} 근처의 **더 상세한 주차장 정보와 요금 비교**는 아래 사이트에서 확인할 수 있습니다.
 
-- [전국 주차장 검색 및 요금 비교 - parking.mustarddata.com](https://parking.mustarddata.com)
+- [${lm.name} 근처 주차장 상세 정보](https://parking.mustarddata.com/near/${lm.slug}/)
+- [전국 주차장 검색 및 요금 비교](https://parking.mustarddata.com/)
 - [무료 주차장 찾기](https://parking.mustarddata.com/free/)
 - [주차 요금 비교하기](https://parking.mustarddata.com/compare/)
 `;
