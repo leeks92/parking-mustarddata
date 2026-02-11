@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   compress: true,
   poweredByHeader: false,
+  staticPageGenerationTimeout: 180,
 };
 
 export default nextConfig;

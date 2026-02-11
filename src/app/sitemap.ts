@@ -70,6 +70,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // Blog pages
+  const blogPages: MetadataRoute.Sitemap = getAllLandmarkSlugs().map((slug) => ({
+    url: `${BASE_URL}/blog/parking-near-${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }));
+
   // Individual parking lot pages
   const parkingPages: MetadataRoute.Sitemap = getAllParkingIds().map((id) => ({
     url: `${BASE_URL}/parking/${id}`,
@@ -85,6 +93,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...sigunguPages,
     ...freeSigunguPages,
     ...landmarkPages,
+    ...blogPages,
     ...parkingPages,
   ];
 }

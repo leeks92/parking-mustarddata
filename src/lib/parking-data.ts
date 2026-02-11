@@ -1,4 +1,5 @@
 import type { ParkingLot, Region, LandmarkData } from './types';
+export type { LandmarkData };
 import rawData from '../../data/parking-lots.json';
 import landmarkRaw from '../../data/landmark-parking.json';
 
@@ -207,6 +208,12 @@ export function getLandmarkBySlug(slug: string): LandmarkData | undefined {
   const data = landmarkData[slug];
   if (!data || data.total < MIN_LANDMARK_LOTS) return undefined;
   return data;
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function getLandmarkRaw(slug: string): any | undefined {
+  const data = (landmarkRaw as Record<string, unknown>)[slug];
+  return data || undefined;
 }
 
 // 좌표 기반 근처 주차장 찾기 (Haversine 근사, 반경 km)

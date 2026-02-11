@@ -19,6 +19,12 @@ export const MAIN_PAGES = [
     description: '주요 장소 근처 공영·무료 주차장을 찾아보세요.',
     emoji: '📍',
   },
+  {
+    path: '/blog',
+    title: '블로그',
+    description: '주차 요금 비교, 무료 주차장 꿀팁 등 유용한 정보.',
+    emoji: '📝',
+  },
 ];
 
 export const REGION_PAGES = [
