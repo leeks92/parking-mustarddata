@@ -1,0 +1,9 @@
+{
+  "name": "주차장 정보 - 전국 주차장 검색, 요금 비교",
+  "short_name": "주차장 정보",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "description": "전국 주차장 위치, 운영시간, 요금 정보를 한눈에 비교하세요. 무료 주차장, 공영 주차장 찾기."
+}

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__obsidian-mcp__obsidian_simple_search",
+      "mcp__obsidian-mcp__obsidian_complex_search",
+      "mcp__obsidian-mcp__obsidian_batch_get_file_contents",
+      "Bash(wc:*)",
+      "Bash(node -e:*)",
+      "Bash(claude mcp add --transport stdio --scope user --env EXA_API_KEY=cb4b8c90-8855-4bcd-8720-109c78e5ef31 exa-search -- npx -y exa-mcp-server)",
+      "Bash(claude mcp add --transport stdio --scope user -e EXA_API_KEY=cb4b8c90-8855-4bcd-8720-109c78e5ef31 exa-search -- npx -y exa-mcp-server)",
+      "Bash(claude mcp add:*)",
+      "Bash(du:*)",
+      "Bash(claude mcp list:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

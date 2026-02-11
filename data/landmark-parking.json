@@ -1,0 +1,4477 @@
+{
+  "gangnam-station": {
+    "landmark": {
+      "name": "강남역",
+      "slug": "gangnam-station",
+      "lat": 37.4979,
+      "lng": 127.0276,
+      "category": "서울 역세권",
+      "description": "서울 최대 상업지구"
+    },
+    "total": 6,
+    "free": 2,
+    "paid": 4,
+    "public": 6,
+    "avgBaseFee": 1875,
+    "avgAddFee": 75,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "케이아이타워(KI 타워)",
+        "address": "서울특별시 서초구 서초동  1309-8",
+        "capacity": 16,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 510
+      },
+      {
+        "name": "하이브타워",
+        "address": "서울특별시 서초구 반포동  746-2",
+        "capacity": 7,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 861
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "역삼문화공원",
+        "address": "서울특별시 강남구 테헤란로7길 32",
+        "capacity": 59,
+        "baseFee": 1800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 569
+      },
+      {
+        "name": "역삼1동문화센터",
+        "address": "서울특별시 강남구 역삼로 7길 16",
+        "capacity": 118,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 575
+      },
+      {
+        "name": "테헤란로26길",
+        "address": "서울특별시 강남구 테헤란로 152",
+        "capacity": 12,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 821
+      },
+      {
+        "name": "언구비",
+        "address": "서울특별시 서초구 강남대로83길 55",
+        "capacity": 51,
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 300,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 957
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "언구비",
+        "address": "서울특별시 서초구 강남대로83길 55",
+        "parkingType": "공영",
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 300,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 957
+      },
+      {
+        "name": "역삼문화공원",
+        "address": "서울특별시 강남구 테헤란로7길 32",
+        "parkingType": "공영",
+        "baseFee": 1800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 569
+      },
+      {
+        "name": "역삼1동문화센터",
+        "address": "서울특별시 강남구 역삼로 7길 16",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 575
+      },
+      {
+        "name": "테헤란로26길",
+        "address": "서울특별시 강남구 테헤란로 152",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 821
+      }
+    ]
+  },
+  "seoul-station": {
+    "landmark": {
+      "name": "서울역",
+      "slug": "seoul-station",
+      "lat": 37.5547,
+      "lng": 126.9707,
+      "category": "서울 역세권",
+      "description": "KTX·지하철 환승 허브"
+    },
+    "total": 39,
+    "free": 20,
+    "paid": 19,
+    "public": 39,
+    "avgBaseFee": 2293,
+    "avgAddFee": 0,
+    "avgDailyMax": 20000,
+    "topFree": [
+      {
+        "name": "남산공원 소월로",
+        "address": "서울특별시 중구 남대문로5가 450",
+        "capacity": 12,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 420
+      },
+      {
+        "name": "남산공원 소파로",
+        "address": "서울특별시 중구 남창동 205-107",
+        "capacity": 21,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 491
+      },
+      {
+        "name": "남대문 초입",
+        "address": "서울특별시 중구 남창동 282-10",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 548
+      },
+      {
+        "name": "중앙일보사",
+        "address": "서울특별시 중구 서소문로 88",
+        "capacity": 4,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 781
+      },
+      {
+        "name": "충정리시온",
+        "address": "서울특별시 서대문구 충정로3가  465",
+        "capacity": 253,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 808
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "손기정체육공원 공영주차장",
+        "address": "서울특별시 중구 손기정로 101",
+        "capacity": 162,
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 526
+      },
+      {
+        "name": "한진면세점앞 공영주차장",
+        "address": "서울특별시 중구 세종대로 23",
+        "capacity": 18,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 562
+      },
+      {
+        "name": "남대문피혁상가남측 공영주차장",
+        "address": "서울특별시 중구 세종대로 23",
+        "capacity": 25,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 562
+      },
+      {
+        "name": "코오롱빌딩옆 공영주차장",
+        "address": "서울특별시 중구 세종대로 23",
+        "capacity": 18,
+        "baseFee": 3600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 562
+      },
+      {
+        "name": "맑은내길 공영주차장",
+        "address": "서울특별시 중구 세종대로 23",
+        "capacity": 17,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 562
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "손기정체육공원 공영주차장",
+        "address": "서울특별시 중구 손기정로 101",
+        "parkingType": "공영",
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 526
+      },
+      {
+        "name": "서계동",
+        "address": "서울특별시 용산구 효창원로104가길 16",
+        "parkingType": "공영",
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 653
+      },
+      {
+        "name": "후암동",
+        "address": "서울특별시 용산구 후암로35길 23",
+        "parkingType": "공영",
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 677
+      },
+      {
+        "name": "한진면세점앞 공영주차장",
+        "address": "서울특별시 중구 세종대로 23",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 562
+      },
+      {
+        "name": "그린빌딩옆 공영주차장",
+        "address": "서울특별시 중구 세종대로 23",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 562
+      }
+    ]
+  },
+  "hongdae-station": {
+    "landmark": {
+      "name": "홍대입구역",
+      "slug": "hongdae-station",
+      "lat": 37.5571,
+      "lng": 126.9246,
+      "category": "서울 역세권",
+      "description": "홍대 문화거리 중심"
+    },
+    "total": 1066,
+    "free": 1066,
+    "paid": 0,
+    "public": 1065,
+    "avgBaseFee": 0,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "삼양세븐스프링스",
+        "address": "서울특별시 마포구 동교동  166-13",
+        "capacity": 20,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 8
+      },
+      {
+        "name": "동교동 스타피카소",
+        "address": "서울특별시 마포구 동교동  166-14",
+        "capacity": 200,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 17
+      },
+      {
+        "name": "미래프라자",
+        "address": "서울특별시 마포구 동교동  165-1",
+        "capacity": 66,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 55
+      },
+      {
+        "name": "두영빌딩",
+        "address": "서울특별시 마포구 동교동  164-1",
+        "capacity": 4,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 70
+      },
+      {
+        "name": "마젤란21 오피스텔",
+        "address": "서울특별시 마포구 동교동  156-2",
+        "capacity": 141,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 75
+      }
+    ],
+    "topPublic": [],
+    "cheapest": []
+  },
+  "jamsil-station": {
+    "landmark": {
+      "name": "잠실역",
+      "slug": "jamsil-station",
+      "lat": 37.5133,
+      "lng": 127.1001,
+      "category": "서울 역세권",
+      "description": "롯데월드·올림픽공원 인접"
+    },
+    "total": 11,
+    "free": 7,
+    "paid": 4,
+    "public": 11,
+    "avgBaseFee": 1740,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "서호2",
+        "address": "서울특별시 송파구 잠실로148",
+        "capacity": 18,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 343
+      },
+      {
+        "name": "잠실역환승",
+        "address": "서울특별시 송파구 올림픽로 300(신천동)",
+        "capacity": 355,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 387
+      },
+      {
+        "name": "서울놀이마당",
+        "address": "서울특별시 송파구 삼학사로 136",
+        "capacity": 17,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 511
+      },
+      {
+        "name": "송파나루공원 동호주차장",
+        "address": "서울특별시 송파구 잠실로180",
+        "capacity": 20,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 684
+      },
+      {
+        "name": "서호1",
+        "address": "서울특별시 송파구 석촌호수로197",
+        "capacity": 15,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 752
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "잠실역",
+        "address": "서울특별시 송파구 올림픽로 300",
+        "capacity": 357,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 110
+      },
+      {
+        "name": "교통공원길",
+        "address": "서울특별시 송파구 올림픽로 35다길",
+        "capacity": 85,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 474
+      },
+      {
+        "name": "성내역(잠실나루역)",
+        "address": "서울특별시 송파구 신천동 11-1",
+        "capacity": 28,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 485
+      },
+      {
+        "name": "신천유수지",
+        "address": "서울특별시 송파구 오금로 1",
+        "capacity": 221,
+        "baseFee": 1560,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 948
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "교통공원길",
+        "address": "서울특별시 송파구 올림픽로 35다길",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 474
+      },
+      {
+        "name": "성내역(잠실나루역)",
+        "address": "서울특별시 송파구 신천동 11-1",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 485
+      },
+      {
+        "name": "신천유수지",
+        "address": "서울특별시 송파구 오금로 1",
+        "parkingType": "공영",
+        "baseFee": 1560,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 948
+      },
+      {
+        "name": "잠실역",
+        "address": "서울특별시 송파구 올림픽로 300",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 110
+      }
+    ]
+  },
+  "myeongdong-station": {
+    "landmark": {
+      "name": "명동역",
+      "slug": "myeongdong-station",
+      "lat": 37.5609,
+      "lng": 126.9862,
+      "category": "서울 역세권",
+      "description": "쇼핑·관광 중심지"
+    },
+    "total": 53,
+    "free": 25,
+    "paid": 28,
+    "public": 53,
+    "avgBaseFee": 3114,
+    "avgAddFee": 0,
+    "avgDailyMax": 20000,
+    "topFree": [
+      {
+        "name": "소파로케이블카앞",
+        "address": "서울특별시 중구 회현동1가 산 1-15",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 677
+      },
+      {
+        "name": "31빌딩",
+        "address": "서울특별시 종로구 관철동  10-2",
+        "capacity": 52,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 859
+      },
+      {
+        "name": "수표교빌딩",
+        "address": "서울특별시 종로구 관철동  35-2",
+        "capacity": 8,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 863
+      },
+      {
+        "name": "금옥빌딩",
+        "address": "서울특별시 종로구 관철동  11-24",
+        "capacity": 13,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 867
+      },
+      {
+        "name": "글로벌빌딩",
+        "address": "서울특별시 종로구 관철동  11-19",
+        "capacity": 1,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 870
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "남산예장",
+        "address": "서울특별시 중구 퇴계로 26길 36",
+        "capacity": 40,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 124
+      },
+      {
+        "name": "남산동 공영주차장",
+        "address": "서울특별시 중구 퇴계로20길 24",
+        "capacity": 49,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 195
+      },
+      {
+        "name": "남산한옥마을",
+        "address": "서울특별시 중구 필동2가 83-1",
+        "capacity": 17,
+        "baseFee": 2580,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 429
+      },
+      {
+        "name": "남산소파길",
+        "address": "서울특별시 중구 예장동 8-189",
+        "capacity": 14,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 494
+      },
+      {
+        "name": "조선호텔앞 공영주차장",
+        "address": "서울특별시 중구 남대문로7길 11",
+        "capacity": 12,
+        "baseFee": 3600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 535
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "필동 공영주차장",
+        "address": "서울특별시 중구 필동로 55",
+        "parkingType": "공영",
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 977
+      },
+      {
+        "name": "남산동 공영주차장",
+        "address": "서울특별시 중구 퇴계로20길 24",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 195
+      },
+      {
+        "name": "남산소파길",
+        "address": "서울특별시 중구 예장동 8-189",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 494
+      },
+      {
+        "name": "남산케이블카",
+        "address": "서울특별시 중구 소파로 83",
+        "parkingType": "공영",
+        "baseFee": 1980,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 617
+      },
+      {
+        "name": "남산파출소",
+        "address": "서울특별시 중구 회현동1가 147-32",
+        "parkingType": "공영",
+        "baseFee": 1980,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 864
+      }
+    ]
+  },
+  "yeouido-station": {
+    "landmark": {
+      "name": "여의도역",
+      "slug": "yeouido-station",
+      "lat": 37.5216,
+      "lng": 126.9243,
+      "category": "서울 역세권",
+      "description": "금융·방송 중심지"
+    },
+    "total": 5,
+    "free": 1,
+    "paid": 4,
+    "public": 5,
+    "avgBaseFee": 780,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "서울지역본부주차장",
+        "address": "서울특별시 영등포구 의사당대로 141",
+        "capacity": 10,
+        "weekdayOpen": "09:00",
+        "weekdayClose": "18:00",
+        "distance": 359
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "원효대교 남단",
+        "address": "서울특별시 영등포구 여의도동 5",
+        "capacity": 13,
+        "baseFee": 960,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 599
+      },
+      {
+        "name": "여의서로",
+        "address": "서울특별시 영등포구 여의도동 8-1",
+        "capacity": 104,
+        "baseFee": 960,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 840
+      },
+      {
+        "name": "경부제3녹지 공영주차장",
+        "address": "서울특별시 영등포구 영등포로 405",
+        "capacity": 143,
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 938
+      },
+      {
+        "name": "신길환승(5호선)공영주차장",
+        "address": "서울특별시 영등포구 영등포1가35",
+        "capacity": 88,
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 982
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "경부제3녹지 공영주차장",
+        "address": "서울특별시 영등포구 영등포로 405",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 938
+      },
+      {
+        "name": "신길환승(5호선)공영주차장",
+        "address": "서울특별시 영등포구 영등포1가35",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 982
+      },
+      {
+        "name": "원효대교 남단",
+        "address": "서울특별시 영등포구 여의도동 5",
+        "parkingType": "공영",
+        "baseFee": 960,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 599
+      },
+      {
+        "name": "여의서로",
+        "address": "서울특별시 영등포구 여의도동 8-1",
+        "parkingType": "공영",
+        "baseFee": 960,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 840
+      }
+    ]
+  },
+  "sinchon-station": {
+    "landmark": {
+      "name": "신촌역",
+      "slug": "sinchon-station",
+      "lat": 37.5553,
+      "lng": 126.9366,
+      "category": "서울 역세권",
+      "description": "대학가 밀집 지역"
+    },
+    "total": 372,
+    "free": 371,
+    "paid": 1,
+    "public": 372,
+    "avgBaseFee": 2100,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "그랜드플라자",
+        "address": "서울특별시 마포구 노고산동  57-1",
+        "capacity": 110,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 58
+      },
+      {
+        "name": "엘리트빌딩",
+        "address": "서울특별시 서대문구 창천동  18-50",
+        "capacity": 26,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 74
+      },
+      {
+        "name": "신촌카리스빌딩",
+        "address": "서울특별시 마포구 노고산동  57-4",
+        "capacity": 21,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 83
+      },
+      {
+        "name": "태영빌딩",
+        "address": "서울특별시 마포구 노고산동  57-12",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 109
+      },
+      {
+        "name": "신촌르·메이에르타운(I)",
+        "address": "서울특별시 마포구 노고산동  57-18",
+        "capacity": 65,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 115
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "신촌역동측광장 공영",
+        "address": "서울특별시 서대문구 대현동  121-19",
+        "capacity": 30,
+        "baseFee": 2100,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 732
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "신촌역동측광장 공영",
+        "address": "서울특별시 서대문구 대현동  121-19",
+        "parkingType": "공영",
+        "baseFee": 2100,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 732
+      }
+    ]
+  },
+  "kondae-station": {
+    "landmark": {
+      "name": "건대입구역",
+      "slug": "kondae-station",
+      "lat": 37.5404,
+      "lng": 127.0693,
+      "category": "서울 역세권",
+      "description": "건국대·커먼그라운드"
+    },
+    "total": 3,
+    "free": 0,
+    "paid": 3,
+    "public": 3,
+    "avgBaseFee": 1100,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [],
+    "topPublic": [
+      {
+        "name": "자양4동 공영",
+        "address": "서울특별시 광진구 자양동  5-5",
+        "capacity": 86,
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 219
+      },
+      {
+        "name": "화양동 공영",
+        "address": "서울특별시 광진구 군자로 22",
+        "capacity": 44,
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 569
+      },
+      {
+        "name": "광진광장 공영",
+        "address": "서울특별시 광진구 광나루로 389",
+        "capacity": 36,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 881
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "자양4동 공영",
+        "address": "서울특별시 광진구 자양동  5-5",
+        "parkingType": "공영",
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 219
+      },
+      {
+        "name": "화양동 공영",
+        "address": "서울특별시 광진구 군자로 22",
+        "parkingType": "공영",
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 569
+      },
+      {
+        "name": "광진광장 공영",
+        "address": "서울특별시 광진구 광나루로 389",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 881
+      }
+    ]
+  },
+  "hapjeong-station": {
+    "landmark": {
+      "name": "합정역",
+      "slug": "hapjeong-station",
+      "lat": 37.5497,
+      "lng": 126.9139,
+      "category": "서울 역세권",
+      "description": "망원·합정 카페거리"
+    },
+    "total": 1016,
+    "free": 1016,
+    "paid": 0,
+    "public": 1016,
+    "avgBaseFee": 0,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "강서정형외과",
+        "address": "서울특별시 마포구 합정동  414-21",
+        "capacity": 4,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 65
+      },
+      {
+        "name": "동양한강트레벨",
+        "address": "서울특별시 마포구 서교동  394-25",
+        "capacity": 154,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 82
+      },
+      {
+        "name": "합정동주상복합건물",
+        "address": "서울특별시 마포구 합정동  414-18",
+        "capacity": 8,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 113
+      },
+      {
+        "name": "서교동 복합주택",
+        "address": "서울특별시 마포구 서교동  394-90",
+        "capacity": 8,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 115
+      },
+      {
+        "name": "현주빌",
+        "address": "서울특별시 마포구 서교동  394-88",
+        "capacity": 8,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 125
+      }
+    ],
+    "topPublic": [],
+    "cheapest": []
+  },
+  "jongno3-station": {
+    "landmark": {
+      "name": "종로3가역",
+      "slug": "jongno3-station",
+      "lat": 37.571,
+      "lng": 126.992,
+      "category": "서울 역세권",
+      "description": "종묘·인사동·탑골공원"
+    },
+    "total": 211,
+    "free": 187,
+    "paid": 24,
+    "public": 211,
+    "avgBaseFee": 3265,
+    "avgAddFee": 0,
+    "avgDailyMax": 20000,
+    "topFree": [
+      {
+        "name": "단성사",
+        "address": "서울특별시 종로구 묘동  56",
+        "capacity": 33,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 46
+      },
+      {
+        "name": "피카디리플러스",
+        "address": "서울특별시 종로구 돈의동  137",
+        "capacity": 131,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 68
+      },
+      {
+        "name": "동영타워",
+        "address": "서울특별시 종로구 종로3가  119",
+        "capacity": 1,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 135
+      },
+      {
+        "name": "주어링 별관",
+        "address": "서울특별시 종로구 봉익동  118-1",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 150
+      },
+      {
+        "name": "보석백화점빌딩",
+        "address": "서울특별시 종로구 봉익동  23",
+        "capacity": 11,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 153
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "종묘",
+        "address": "서울특별시 종로구 종로 157",
+        "capacity": 1317,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 84
+      },
+      {
+        "name": "세운상가밑",
+        "address": "서울특별시 종로구 종로26길-종로28",
+        "capacity": 29,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 317
+      },
+      {
+        "name": "청계2",
+        "address": "서울특별시 종로구 관수동 91-4",
+        "capacity": 58,
+        "baseFee": 4500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 334
+      },
+      {
+        "name": "청계3",
+        "address": "서울특별시 종로구 예지동 140-1",
+        "capacity": 74,
+        "baseFee": 4500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 357
+      },
+      {
+        "name": "종각뒤",
+        "address": "서울특별시 종로구 종로16길 24",
+        "capacity": 13,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 375
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "원서공원앞",
+        "address": "서울특별시 종로구 율곡로 75",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 870
+      },
+      {
+        "name": "종묘",
+        "address": "서울특별시 종로구 종로 157",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 84
+      },
+      {
+        "name": "하나로빌딩옆",
+        "address": "서울특별시 종로구 종로11길 17-18",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 578
+      },
+      {
+        "name": "초동 공영주차장",
+        "address": "서울특별시 중구 마른내로 38",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 20000,
+        "distance": 758
+      },
+      {
+        "name": "서인사마당",
+        "address": "서울특별시 종로구 인사동11길 19",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 799
+      }
+    ]
+  },
+  "itaewon-station": {
+    "landmark": {
+      "name": "이태원역",
+      "slug": "itaewon-station",
+      "lat": 37.5346,
+      "lng": 126.9946,
+      "category": "서울 역세권",
+      "description": "이태원 맛집·카페 거리"
+    },
+    "total": 3,
+    "free": 0,
+    "paid": 3,
+    "public": 3,
+    "avgBaseFee": 1800,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [],
+    "topPublic": [
+      {
+        "name": "한남동",
+        "address": "서울특별시 용산구 이태원로 224-19",
+        "capacity": 250,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 501
+      },
+      {
+        "name": "이태원2동",
+        "address": "서울특별시 용산구 회나무로 55",
+        "capacity": 111,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 674
+      },
+      {
+        "name": "한강진역",
+        "address": "서울특별시 용산구 한남동 728-27",
+        "capacity": 176,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 848
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "한남동",
+        "address": "서울특별시 용산구 이태원로 224-19",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 501
+      },
+      {
+        "name": "이태원2동",
+        "address": "서울특별시 용산구 회나무로 55",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 674
+      },
+      {
+        "name": "한강진역",
+        "address": "서울특별시 용산구 한남동 728-27",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 848
+      }
+    ]
+  },
+  "samsung-station": {
+    "landmark": {
+      "name": "삼성역",
+      "slug": "samsung-station",
+      "lat": 37.5089,
+      "lng": 127.0637,
+      "category": "서울 역세권",
+      "description": "코엑스·현대백화점"
+    },
+    "total": 10,
+    "free": 1,
+    "paid": 9,
+    "public": 10,
+    "avgBaseFee": 1620,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "강남서초지사주차장",
+        "address": "서울특별시 강남구 봉은사로114길 30",
+        "capacity": 10,
+        "weekdayOpen": "09:00",
+        "weekdayClose": "18:00",
+        "distance": 515
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "영동대로96길",
+        "address": "서울특별시 강남구 테헤란로103길10",
+        "capacity": 77,
+        "baseFee": 1800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 157
+      },
+      {
+        "name": "영동대로86길",
+        "address": "서울특별시 강남구 영동대로 86",
+        "capacity": 16,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 171
+      },
+      {
+        "name": "영동대로106길",
+        "address": "서울특별시 강남구 영동대로106길33",
+        "capacity": 62,
+        "baseFee": 1800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 585
+      },
+      {
+        "name": "삼성1동문화센터",
+        "address": "서울특별시 강남구 봉은사로 616",
+        "capacity": 70,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 614
+      },
+      {
+        "name": "영동대로85길",
+        "address": "서울특별시 강남구 테헤란로 504",
+        "capacity": 77,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 615
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "탄천",
+        "address": "서울특별시 송파구 탄천동로 36",
+        "parkingType": "공영",
+        "baseFee": 178,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 869
+      },
+      {
+        "name": "탄천주차장",
+        "address": "서울특별시 강남구 봉은사로114길13",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 630
+      },
+      {
+        "name": "대치유수지",
+        "address": "서울특별시 강남구 역삼로107길20-30",
+        "parkingType": "공영",
+        "baseFee": 1200,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 638
+      },
+      {
+        "name": "영동대로96길",
+        "address": "서울특별시 강남구 테헤란로103길10",
+        "parkingType": "공영",
+        "baseFee": 1800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 157
+      },
+      {
+        "name": "영동대로106길",
+        "address": "서울특별시 강남구 영동대로106길33",
+        "parkingType": "공영",
+        "baseFee": 1800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 585
+      }
+    ]
+  },
+  "coex": {
+    "landmark": {
+      "name": "코엑스",
+      "slug": "coex",
+      "lat": 37.512,
+      "lng": 127.059,
+      "category": "서울 랜드마크",
+      "description": "전시·컨벤션·쇼핑몰"
+    },
+    "total": 10,
+    "free": 2,
+    "paid": 8,
+    "public": 10,
+    "avgBaseFee": 1747,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "강남서초지사주차장",
+        "address": "서울특별시 강남구 봉은사로114길 30",
+        "capacity": 10,
+        "weekdayOpen": "09:00",
+        "weekdayClose": "18:00",
+        "distance": 584
+      },
+      {
+        "name": "삼성동다가구주택",
+        "address": "서울특별시 강남구 삼성동  116-30",
+        "capacity": 4,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 659
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "삼성1동문화센터",
+        "address": "서울특별시 강남구 봉은사로 616",
+        "capacity": 70,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 412
+      },
+      {
+        "name": "영동대로106길",
+        "address": "서울특별시 강남구 영동대로106길33",
+        "capacity": 62,
+        "baseFee": 1800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 491
+      },
+      {
+        "name": "영동대로96길",
+        "address": "서울특별시 강남구 테헤란로103길10",
+        "capacity": 77,
+        "baseFee": 1800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 514
+      },
+      {
+        "name": "영동대로85길",
+        "address": "서울특별시 강남구 테헤란로 504",
+        "capacity": 77,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 615
+      },
+      {
+        "name": "탄천주차장",
+        "address": "서울특별시 강남구 봉은사로114길13",
+        "capacity": 808,
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 701
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "탄천",
+        "address": "서울특별시 송파구 탄천동로 36",
+        "parkingType": "공영",
+        "baseFee": 178,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 979
+      },
+      {
+        "name": "탄천주차장",
+        "address": "서울특별시 강남구 봉은사로114길13",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 701
+      },
+      {
+        "name": "영동대로106길",
+        "address": "서울특별시 강남구 영동대로106길33",
+        "parkingType": "공영",
+        "baseFee": 1800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 491
+      },
+      {
+        "name": "영동대로96길",
+        "address": "서울특별시 강남구 테헤란로103길10",
+        "parkingType": "공영",
+        "baseFee": 1800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 514
+      },
+      {
+        "name": "삼성1동문화센터",
+        "address": "서울특별시 강남구 봉은사로 616",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 412
+      }
+    ]
+  },
+  "dongdaemun-market": {
+    "landmark": {
+      "name": "동대문시장",
+      "slug": "dongdaemun-market",
+      "lat": 37.567,
+      "lng": 127.0095,
+      "category": "서울 랜드마크",
+      "description": "패션·원단 도매시장"
+    },
+    "total": 93,
+    "free": 81,
+    "paid": 12,
+    "public": 93,
+    "avgBaseFee": 2405,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "DDP북측 마장로",
+        "address": "서울특별시 중구 신당동 222-3",
+        "capacity": 4,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 153
+      },
+      {
+        "name": "DDP동측(양쪽)",
+        "address": "서울특별시 중구 을지로7가 2-36",
+        "capacity": 20,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 156
+      },
+      {
+        "name": "JW메리어트 동대문스퀘어 서울",
+        "address": "서울특별시 종로구 종로6가  289-3",
+        "capacity": 277,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 381
+      },
+      {
+        "name": "쉘톤빌딩",
+        "address": "서울특별시 종로구 창신동  448-6",
+        "capacity": 1,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 455
+      },
+      {
+        "name": "은하수빌딩",
+        "address": "서울특별시 종로구 종로6가  261-1",
+        "capacity": 1,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 458
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "동대문",
+        "address": "서울특별시 중구 마장로 22",
+        "capacity": 1092,
+        "baseFee": 2160,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 30
+      },
+      {
+        "name": "국립의료원옆 공영주차장",
+        "address": "서울특별시 중구 을지로 245",
+        "capacity": 15,
+        "baseFee": 2100,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 363
+      },
+      {
+        "name": "훈련원공원옆 공영주차장",
+        "address": "서울특별시 중구 을지로39길 41",
+        "capacity": 8,
+        "baseFee": 2100,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 400
+      },
+      {
+        "name": "청계6",
+        "address": "서울특별시 종로구 종로6가 289-49",
+        "capacity": 39,
+        "baseFee": 2700,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 447
+      },
+      {
+        "name": "청계7",
+        "address": "서울특별시 종로구 창신동 436-87",
+        "capacity": 39,
+        "baseFee": 2700,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 526
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "신당사거리 공영주차장",
+        "address": "서울특별시 중구 퇴계로 408",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 692
+      },
+      {
+        "name": "신당동 공영주차장",
+        "address": "서울특별시 중구 청구로8길 40",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 696
+      },
+      {
+        "name": "청구 공영주차장",
+        "address": "서울특별시 중구 다산로 174",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 962
+      },
+      {
+        "name": "국립의료원옆 공영주차장",
+        "address": "서울특별시 중구 을지로 245",
+        "parkingType": "공영",
+        "baseFee": 2100,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 363
+      },
+      {
+        "name": "훈련원공원옆 공영주차장",
+        "address": "서울특별시 중구 을지로39길 41",
+        "parkingType": "공영",
+        "baseFee": 2100,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 400
+      }
+    ]
+  },
+  "gwanghwamun": {
+    "landmark": {
+      "name": "광화문",
+      "slug": "gwanghwamun",
+      "lat": 37.576,
+      "lng": 126.9769,
+      "category": "서울 랜드마크",
+      "description": "경복궁·광화문광장"
+    },
+    "total": 252,
+    "free": 234,
+    "paid": 18,
+    "public": 252,
+    "avgBaseFee": 2873,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "대한민국 역사박물관",
+        "address": "서울특별시 종로구 세종로  82-1",
+        "capacity": 10,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 248
+      },
+      {
+        "name": "고도",
+        "address": "서울특별시 종로구 적선동  1",
+        "capacity": 6,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 258
+      },
+      {
+        "name": "대한출판문화협회 회관",
+        "address": "서울특별시 종로구 사간동  105-2",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 268
+      },
+      {
+        "name": "노스게이트 빌딩",
+        "address": "서울특별시 종로구 적선동  66",
+        "capacity": 176,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 274
+      },
+      {
+        "name": "법련사",
+        "address": "서울특별시 종로구 사간동  121-1",
+        "capacity": 25,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 276
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "시민열린마당뒤",
+        "address": "서울특별시 종로구 종로1길 55",
+        "capacity": 11,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 190
+      },
+      {
+        "name": "시민열린마당뒤",
+        "address": "서울특별시 종로구 종로1길 55",
+        "capacity": 11,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 190
+      },
+      {
+        "name": "세종로",
+        "address": "서울특별시 종로구 세종대로 지하189",
+        "capacity": 1260,
+        "baseFee": 2580,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 409
+      },
+      {
+        "name": "적선동 노외",
+        "address": "서울특별시 종로구 적선동 140",
+        "capacity": 30,
+        "baseFee": 2040,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 467
+      },
+      {
+        "name": "광화문빌딩옆",
+        "address": "서울특별시 종로구 당주동  145",
+        "capacity": 16,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 585
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "원서공원앞",
+        "address": "서울특별시 종로구 율곡로 75",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 973
+      },
+      {
+        "name": "적선동 노외",
+        "address": "서울특별시 종로구 적선동 140",
+        "parkingType": "노외",
+        "baseFee": 2040,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 467
+      },
+      {
+        "name": "서인사마당",
+        "address": "서울특별시 종로구 인사동11길 19",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 643
+      },
+      {
+        "name": "신문로",
+        "address": "서울특별시 종로구 새문안로 79",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 769
+      },
+      {
+        "name": "다동공원 제4 공영주차장",
+        "address": "서울특별시 중구 을지로1길 48",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 903
+      }
+    ]
+  },
+  "namdaemun-market": {
+    "landmark": {
+      "name": "남대문시장",
+      "slug": "namdaemun-market",
+      "lat": 37.5592,
+      "lng": 126.9773,
+      "category": "서울 랜드마크",
+      "description": "전통시장·수입 상품"
+    },
+    "total": 34,
+    "free": 8,
+    "paid": 26,
+    "public": 34,
+    "avgBaseFee": 2691,
+    "avgAddFee": 0,
+    "avgDailyMax": 20000,
+    "topFree": [
+      {
+        "name": "남대문 초입",
+        "address": "서울특별시 중구 남창동 282-10",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 349
+      },
+      {
+        "name": "남산공원 소파로",
+        "address": "서울특별시 중구 남창동 205-107",
+        "capacity": 21,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 365
+      },
+      {
+        "name": "남산공원 소월로",
+        "address": "서울특별시 중구 남대문로5가 450",
+        "capacity": 12,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 508
+      },
+      {
+        "name": "소파로케이블카앞",
+        "address": "서울특별시 중구 회현동1가 산 1-15",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 539
+      },
+      {
+        "name": "나눔카전용대기소",
+        "address": "서울특별시 중구 서소문로 127",
+        "capacity": 7,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 597
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "국제화재빌딩옆 공영주차장",
+        "address": "서울특별시 중구 소월로 16",
+        "capacity": 12,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 168
+      },
+      {
+        "name": "한국관광공사옆 공영주차장",
+        "address": "서울특별시 중구 남대문로 11",
+        "capacity": 9,
+        "baseFee": 3600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 199
+      },
+      {
+        "name": "남대문 화물",
+        "address": "서울특별시 중구 남대문로 14",
+        "capacity": 9,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 287
+      },
+      {
+        "name": "한진면세점앞 공영주차장",
+        "address": "서울특별시 중구 세종대로 23",
+        "capacity": 18,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 305
+      },
+      {
+        "name": "남대문피혁상가남측 공영주차장",
+        "address": "서울특별시 중구 세종대로 23",
+        "capacity": 25,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 305
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "후암동",
+        "address": "서울특별시 용산구 후암로35길 23",
+        "parkingType": "공영",
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 981
+      },
+      {
+        "name": "한진면세점앞 공영주차장",
+        "address": "서울특별시 중구 세종대로 23",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 305
+      },
+      {
+        "name": "그린빌딩옆 공영주차장",
+        "address": "서울특별시 중구 세종대로 23",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 305
+      },
+      {
+        "name": "남산소파길",
+        "address": "서울특별시 중구 예장동 8-189",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 611
+      },
+      {
+        "name": "남산동 공영주차장",
+        "address": "서울특별시 중구 퇴계로20길 24",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 723
+      }
+    ]
+  },
+  "garosugil": {
+    "landmark": {
+      "name": "가로수길",
+      "slug": "garosugil",
+      "lat": 37.5199,
+      "lng": 127.0231,
+      "category": "서울 랜드마크",
+      "description": "신사동 카페·패션 거리"
+    },
+    "total": 12,
+    "free": 2,
+    "paid": 10,
+    "public": 12,
+    "avgBaseFee": 2172,
+    "avgAddFee": 30,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "에르고슬립빌딩",
+        "address": "서울특별시 강남구 논현동  34-23",
+        "capacity": 6,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 677
+      },
+      {
+        "name": "엘컴타워",
+        "address": "서울특별시 강남구 논현동  57-5",
+        "capacity": 8,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 790
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "도산대로25길32",
+        "address": "서울특별시 강남구 도산대로25길32",
+        "capacity": 26,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 374
+      },
+      {
+        "name": "신구초교",
+        "address": "서울특별시 강남구 압구정로 18길 28",
+        "capacity": 185,
+        "baseFee": 1800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 393
+      },
+      {
+        "name": "강남대로150길",
+        "address": "서울특별시 강남구 도산대로 108",
+        "capacity": 7,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 465
+      },
+      {
+        "name": "압구정고가1",
+        "address": "서울특별시 강남구 압구정로 지하172",
+        "capacity": 19,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 484
+      },
+      {
+        "name": "압구정고가2",
+        "address": "서울특별시 강남구 압구정로 지하172",
+        "capacity": 19,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 484
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "잠원동 방음언덕형",
+        "address": "서울특별시 서초구 잠원동  10-33",
+        "parkingType": "공영",
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 300,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 802
+      },
+      {
+        "name": "동호대교(남)",
+        "address": "서울특별시 강남구 압구정동 435",
+        "parkingType": "공영",
+        "baseFee": 1020,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 845
+      },
+      {
+        "name": "신구초교",
+        "address": "서울특별시 강남구 압구정로 18길 28",
+        "parkingType": "공영",
+        "baseFee": 1800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 393
+      },
+      {
+        "name": "도산대로25길32",
+        "address": "서울특별시 강남구 도산대로25길32",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 374
+      },
+      {
+        "name": "강남대로150길",
+        "address": "서울특별시 강남구 도산대로 108",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 465
+      }
+    ]
+  },
+  "bukchon-hanok": {
+    "landmark": {
+      "name": "북촌한옥마을",
+      "slug": "bukchon-hanok",
+      "lat": 37.5827,
+      "lng": 126.9836,
+      "category": "서울 랜드마크",
+      "description": "전통 한옥 관광지"
+    },
+    "total": 119,
+    "free": 114,
+    "paid": 5,
+    "public": 119,
+    "avgBaseFee": 2100,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "북촌전망대",
+        "address": "서울특별시 종로구 삼청동  35-62",
+        "capacity": 1,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 84
+      },
+      {
+        "name": "천주교 가회동성당",
+        "address": "서울특별시 종로구 가회동  30-3",
+        "capacity": 28,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 125
+      },
+      {
+        "name": "더작은 재단",
+        "address": "서울특별시 종로구 가회동  1-29",
+        "capacity": 11,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 126
+      },
+      {
+        "name": "가회동12 닭 박물관",
+        "address": "서울특별시 종로구 가회동  12",
+        "capacity": 2,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 146
+      },
+      {
+        "name": "이도센타",
+        "address": "서울특별시 종로구 가회동  10-6",
+        "capacity": 9,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 160
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "삼청공원앞",
+        "address": "서울특별시 종로구 삼청동  25-1",
+        "capacity": 18,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 537
+      },
+      {
+        "name": "삼청공원앞",
+        "address": "서울특별시 종로구 북촌로 134-1",
+        "capacity": 18,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 556
+      },
+      {
+        "name": "원서공원앞",
+        "address": "서울특별시 종로구 율곡로 75",
+        "capacity": 17,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 631
+      },
+      {
+        "name": "시민열린마당뒤",
+        "address": "서울특별시 종로구 종로1길 55",
+        "capacity": 11,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 918
+      },
+      {
+        "name": "시민열린마당뒤",
+        "address": "서울특별시 종로구 종로1길 55",
+        "capacity": 11,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 918
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "삼청공원앞",
+        "address": "서울특별시 종로구 삼청동  25-1",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 537
+      },
+      {
+        "name": "삼청공원앞",
+        "address": "서울특별시 종로구 북촌로 134-1",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 556
+      },
+      {
+        "name": "원서공원앞",
+        "address": "서울특별시 종로구 율곡로 75",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 631
+      },
+      {
+        "name": "시민열린마당뒤",
+        "address": "서울특별시 종로구 종로1길 55",
+        "parkingType": "공영",
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 918
+      },
+      {
+        "name": "시민열린마당뒤",
+        "address": "서울특별시 종로구 종로1길 55",
+        "parkingType": "공영",
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 918
+      }
+    ]
+  },
+  "yeouido-hangang": {
+    "landmark": {
+      "name": "여의도 한강공원",
+      "slug": "yeouido-hangang",
+      "lat": 37.527,
+      "lng": 126.934,
+      "category": "서울 랜드마크",
+      "description": "봄꽃·불꽃축제 명소"
+    },
+    "total": 2,
+    "free": 0,
+    "paid": 2,
+    "public": 2,
+    "avgBaseFee": 960,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [],
+    "topPublic": [
+      {
+        "name": "여의서로",
+        "address": "서울특별시 영등포구 여의도동 8-1",
+        "capacity": 104,
+        "baseFee": 960,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 551
+      },
+      {
+        "name": "원효대교 남단",
+        "address": "서울특별시 영등포구 여의도동 5",
+        "capacity": 13,
+        "baseFee": 960,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 832
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "여의서로",
+        "address": "서울특별시 영등포구 여의도동 8-1",
+        "parkingType": "공영",
+        "baseFee": 960,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 551
+      },
+      {
+        "name": "원효대교 남단",
+        "address": "서울특별시 영등포구 여의도동 5",
+        "parkingType": "공영",
+        "baseFee": 960,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 832
+      }
+    ]
+  },
+  "lotte-world": {
+    "landmark": {
+      "name": "잠실 롯데월드",
+      "slug": "lotte-world",
+      "lat": 37.5112,
+      "lng": 127.0981,
+      "category": "서울 랜드마크",
+      "description": "테마파크·쇼핑몰"
+    },
+    "total": 9,
+    "free": 6,
+    "paid": 3,
+    "public": 9,
+    "avgBaseFee": 1800,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "서울놀이마당",
+        "address": "서울특별시 송파구 삼학사로 136",
+        "capacity": 17,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 239
+      },
+      {
+        "name": "서호2",
+        "address": "서울특별시 송파구 잠실로148",
+        "capacity": 18,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 282
+      },
+      {
+        "name": "서호1",
+        "address": "서울특별시 송파구 석촌호수로197",
+        "capacity": 15,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 516
+      },
+      {
+        "name": "잠실역환승",
+        "address": "서울특별시 송파구 올림픽로 300(신천동)",
+        "capacity": 355,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 628
+      },
+      {
+        "name": "예송힐",
+        "address": "서울특별시 송파구 송파동  36-17",
+        "capacity": 6,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 825
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "잠실역",
+        "address": "서울특별시 송파구 올림픽로 300",
+        "capacity": 357,
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 351
+      },
+      {
+        "name": "교통공원길",
+        "address": "서울특별시 송파구 올림픽로 35다길",
+        "capacity": 85,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 766
+      },
+      {
+        "name": "성내역(잠실나루역)",
+        "address": "서울특별시 송파구 신천동 11-1",
+        "capacity": 28,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 776
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "교통공원길",
+        "address": "서울특별시 송파구 올림픽로 35다길",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 766
+      },
+      {
+        "name": "성내역(잠실나루역)",
+        "address": "서울특별시 송파구 신천동 11-1",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 776
+      },
+      {
+        "name": "잠실역",
+        "address": "서울특별시 송파구 올림픽로 300",
+        "parkingType": "공영",
+        "baseFee": 2400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 351
+      }
+    ]
+  },
+  "asan-hospital": {
+    "landmark": {
+      "name": "서울아산병원",
+      "slug": "asan-hospital",
+      "lat": 37.5268,
+      "lng": 127.1084,
+      "category": "서울 병원",
+      "description": "송파구 대형 종합병원"
+    },
+    "total": 5,
+    "free": 3,
+    "paid": 2,
+    "public": 5,
+    "avgBaseFee": 1560,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "신천유수지 주차장",
+        "address": "서울특별시 송파구 오금로 1",
+        "capacity": 222,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 684
+      },
+      {
+        "name": "잠실나루역 환승주차장 (노상)",
+        "address": "서울특별시 송파구 오금로20",
+        "capacity": 30,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 791
+      },
+      {
+        "name": "올림픽대교(북)",
+        "address": "서울특별시 광진구 구의동 올림픽대교(하부)",
+        "capacity": 19,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 992
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "풍납유수지",
+        "address": "서울특별시 송파구 올림픽로41길 108",
+        "capacity": 234,
+        "baseFee": 0,
+        "baseTime": 30,
+        "addFee": 500,
+        "addTime": 10,
+        "dailyMax": 10000,
+        "distance": 213
+      },
+      {
+        "name": "신천유수지",
+        "address": "서울특별시 송파구 오금로 1",
+        "capacity": 221,
+        "baseFee": 1560,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 855
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "신천유수지",
+        "address": "서울특별시 송파구 오금로 1",
+        "parkingType": "공영",
+        "baseFee": 1560,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 855
+      }
+    ]
+  },
+  "samsung-hospital": {
+    "landmark": {
+      "name": "삼성서울병원",
+      "slug": "samsung-hospital",
+      "lat": 37.4881,
+      "lng": 127.0855,
+      "category": "서울 병원",
+      "description": "강남구 대형 종합병원"
+    },
+    "total": 9,
+    "free": 1,
+    "paid": 8,
+    "public": 9,
+    "avgBaseFee": 675,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "일원동",
+        "address": "서울특별시 강남구 양재대로55길 6",
+        "capacity": 23,
+        "weekdayOpen": "09:00",
+        "weekdayClose": "19:00",
+        "distance": 358
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "일원동맛의거리",
+        "address": "서울특별시 강남구 일원로 53",
+        "capacity": 44,
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 350
+      },
+      {
+        "name": "일원1동(기계식)",
+        "address": "서울특별시 강남구 양재대로 27길 5",
+        "capacity": 68,
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 365
+      },
+      {
+        "name": "일원역",
+        "address": "서울특별시 강남구 일원본동 716-2",
+        "capacity": 67,
+        "baseFee": 1020,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 500
+      },
+      {
+        "name": "탄천제2호",
+        "address": "서울특별시 강남구 양재대로 55길28",
+        "capacity": 322,
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 596
+      },
+      {
+        "name": "영희초교",
+        "address": "서울특별시 강남구 일원로21",
+        "capacity": 186,
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 606
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "일원동맛의거리",
+        "address": "서울특별시 강남구 일원로 53",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 350
+      },
+      {
+        "name": "일원1동(기계식)",
+        "address": "서울특별시 강남구 양재대로 27길 5",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 365
+      },
+      {
+        "name": "탄천제2호",
+        "address": "서울특별시 강남구 양재대로 55길28",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 596
+      },
+      {
+        "name": "영희초교",
+        "address": "서울특별시 강남구 일원로21",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 606
+      },
+      {
+        "name": "대청역",
+        "address": "서울특별시 강남구 개포로623-1",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 934
+      }
+    ]
+  },
+  "severance-hospital": {
+    "landmark": {
+      "name": "세브란스병원",
+      "slug": "severance-hospital",
+      "lat": 37.5622,
+      "lng": 126.941,
+      "category": "서울 병원",
+      "description": "신촌 연세의료원"
+    },
+    "total": 236,
+    "free": 235,
+    "paid": 1,
+    "public": 236,
+    "avgBaseFee": 2100,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "이혜련 상담연구소",
+        "address": "서울특별시 서대문구 대신동  16-1",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 153
+      },
+      {
+        "name": "이화여대부속초등학교",
+        "address": "서울특별시 서대문구 대신동  20",
+        "capacity": 43,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 201
+      },
+      {
+        "name": "신촌민자역사",
+        "address": "서울특별시 서대문구 신촌동  74-12",
+        "capacity": 267,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 279
+      },
+      {
+        "name": "스포츠센터",
+        "address": "서울특별시 서대문구 신촌동  134",
+        "capacity": 14585,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 308
+      },
+      {
+        "name": "동문하우스",
+        "address": "서울특별시 서대문구 대신동  83",
+        "capacity": 6,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 363
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "신촌역동측광장 공영",
+        "address": "서울특별시 서대문구 대현동  121-19",
+        "capacity": 30,
+        "baseFee": 2100,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 381
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "신촌역동측광장 공영",
+        "address": "서울특별시 서대문구 대현동  121-19",
+        "parkingType": "공영",
+        "baseFee": 2100,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 381
+      }
+    ]
+  },
+  "snuh-hospital": {
+    "landmark": {
+      "name": "서울대병원",
+      "slug": "snuh-hospital",
+      "lat": 37.5796,
+      "lng": 126.999,
+      "category": "서울 병원",
+      "description": "종로구 국립대병원"
+    },
+    "total": 357,
+    "free": 353,
+    "paid": 4,
+    "public": 357,
+    "avgBaseFee": 2250,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [
+      {
+        "name": "연건 9동[의과학관]",
+        "address": "서울특별시 종로구 연건동  28-2",
+        "capacity": 3079,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 133
+      },
+      {
+        "name": "함춘기독봉사관",
+        "address": "서울특별시 종로구 연건동  110-2",
+        "capacity": 8,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 153
+      },
+      {
+        "name": "예림주택",
+        "address": "서울특별시 종로구 연건동  101",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 199
+      },
+      {
+        "name": "명진빌라",
+        "address": "서울특별시 종로구 명륜4가  206-49",
+        "capacity": 12,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 210
+      },
+      {
+        "name": "명진빌라",
+        "address": "서울특별시 종로구 명륜4가  206-50",
+        "capacity": 12,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 210
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "대학로8가길",
+        "address": "서울특별시 종로구 대학로8가길 119",
+        "capacity": 11,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 416
+      },
+      {
+        "name": "대학로8가길",
+        "address": "서울특별시 종로구 대학로8가길 119",
+        "capacity": 11,
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 417
+      },
+      {
+        "name": "명광교회옆",
+        "address": "서울특별시 종로구 성균관로 45",
+        "capacity": 8,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 818
+      },
+      {
+        "name": "명광교회옆",
+        "address": "서울특별시 종로구 성균관로 45",
+        "capacity": 8,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 818
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "명광교회옆",
+        "address": "서울특별시 종로구 성균관로 45",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 818
+      },
+      {
+        "name": "명광교회옆",
+        "address": "서울특별시 종로구 성균관로 45",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 818
+      },
+      {
+        "name": "대학로8가길",
+        "address": "서울특별시 종로구 대학로8가길 119",
+        "parkingType": "공영",
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 416
+      },
+      {
+        "name": "대학로8가길",
+        "address": "서울특별시 종로구 대학로8가길 119",
+        "parkingType": "공영",
+        "baseFee": 3000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 417
+      }
+    ]
+  },
+  "suwon-station": {
+    "landmark": {
+      "name": "수원역",
+      "slug": "suwon-station",
+      "lat": 37.266,
+      "lng": 127.0001,
+      "category": "수도권",
+      "description": "경기 남부 교통 중심"
+    },
+    "total": 2,
+    "free": 1,
+    "paid": 1,
+    "public": 2,
+    "avgBaseFee": 500,
+    "avgAddFee": 200,
+    "avgDailyMax": 4800,
+    "topFree": [
+      {
+        "name": "송연리치빌",
+        "address": "경기도 수원시 팔달구 매산로3가  105-132",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 592
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "수원역환승",
+        "address": "경기도 수원시 권선구 세화로 136(서둔동)",
+        "capacity": 129,
+        "baseFee": 500,
+        "baseTime": 30,
+        "addFee": 200,
+        "addTime": 10,
+        "dailyMax": 4800,
+        "distance": 122
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "수원역환승",
+        "address": "경기도 수원시 권선구 세화로 136(서둔동)",
+        "parkingType": "공영",
+        "baseFee": 500,
+        "baseTime": 30,
+        "addFee": 200,
+        "addTime": 10,
+        "dailyMax": 4800,
+        "distance": 122
+      }
+    ]
+  },
+  "incheon-airport": {
+    "landmark": {
+      "name": "인천공항",
+      "slug": "incheon-airport",
+      "lat": 37.4602,
+      "lng": 126.4407,
+      "category": "수도권",
+      "description": "국제공항 장기주차"
+    },
+    "total": 0,
+    "free": 0,
+    "paid": 0,
+    "public": 0,
+    "avgBaseFee": 0,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [],
+    "topPublic": [],
+    "cheapest": []
+  },
+  "pangyo-station": {
+    "landmark": {
+      "name": "판교역",
+      "slug": "pangyo-station",
+      "lat": 37.3947,
+      "lng": 127.1113,
+      "category": "수도권",
+      "description": "IT 기업 밀집 지역"
+    },
+    "total": 2,
+    "free": 1,
+    "paid": 1,
+    "public": 2,
+    "avgBaseFee": 400,
+    "avgAddFee": 200,
+    "avgDailyMax": 6000,
+    "topFree": [
+      {
+        "name": "봇들마을",
+        "address": "경기도 성남시 분당구 삼평동  728",
+        "capacity": 1112,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 920
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "삼평동 임시",
+        "address": "경기도 성남시 분당구 삼평동 641",
+        "capacity": 803,
+        "baseFee": 400,
+        "baseTime": 30,
+        "addFee": 200,
+        "addTime": 10,
+        "dailyMax": 6000,
+        "distance": 361
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "삼평동 임시",
+        "address": "경기도 성남시 분당구 삼평동 641",
+        "parkingType": "공영",
+        "baseFee": 400,
+        "baseTime": 30,
+        "addFee": 200,
+        "addTime": 10,
+        "dailyMax": 6000,
+        "distance": 361
+      }
+    ]
+  },
+  "kintex": {
+    "landmark": {
+      "name": "일산 킨텍스",
+      "slug": "kintex",
+      "lat": 37.6709,
+      "lng": 126.7451,
+      "category": "수도권",
+      "description": "전시·컨벤션센터"
+    },
+    "total": 0,
+    "free": 0,
+    "paid": 0,
+    "public": 0,
+    "avgBaseFee": 0,
+    "avgAddFee": 0,
+    "avgDailyMax": 0,
+    "topFree": [],
+    "topPublic": [],
+    "cheapest": []
+  },
+  "seohyeon-station": {
+    "landmark": {
+      "name": "분당 서현역",
+      "slug": "seohyeon-station",
+      "lat": 37.3846,
+      "lng": 127.1231,
+      "category": "수도권",
+      "description": "분당 중심 상업지구"
+    },
+    "total": 2,
+    "free": 1,
+    "paid": 1,
+    "public": 2,
+    "avgBaseFee": 400,
+    "avgAddFee": 200,
+    "avgDailyMax": 6000,
+    "topFree": [
+      {
+        "name": "성남지사주차장",
+        "address": "경기도 성남시 분당구 서현로 210번길1, 402",
+        "capacity": 10,
+        "weekdayOpen": "09:00",
+        "weekdayClose": "18:00",
+        "distance": 322
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "백현동카페거리공영주차장",
+        "address": "경기도 성남시 분당구 백현동 563",
+        "capacity": 205,
+        "baseFee": 400,
+        "baseTime": 30,
+        "addFee": 200,
+        "addTime": 10,
+        "dailyMax": 6000,
+        "distance": 986
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "백현동카페거리공영주차장",
+        "address": "경기도 성남시 분당구 백현동 563",
+        "parkingType": "공영",
+        "baseFee": 400,
+        "baseTime": 30,
+        "addFee": 200,
+        "addTime": 10,
+        "dailyMax": 6000,
+        "distance": 986
+      }
+    ]
+  },
+  "busan-station": {
+    "landmark": {
+      "name": "부산역",
+      "slug": "busan-station",
+      "lat": 35.1152,
+      "lng": 129.0405,
+      "category": "지방",
+      "description": "KTX 부산 도착역"
+    },
+    "total": 38,
+    "free": 19,
+    "paid": 19,
+    "public": 38,
+    "avgBaseFee": 1216,
+    "avgAddFee": 137,
+    "avgDailyMax": 5433,
+    "topFree": [
+      {
+        "name": "초1-2(주거지)",
+        "address": "부산광역시 동구 초량상로35번길 1-2",
+        "capacity": 18,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 395
+      },
+      {
+        "name": "초량3동-업무지2구간",
+        "address": "부산광역시 동구 중앙대로 243",
+        "capacity": 2,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 396
+      },
+      {
+        "name": "초량1동업무지",
+        "address": "부산광역시 동구 대영로239번길 11",
+        "capacity": 6,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 426
+      },
+      {
+        "name": "초1-1(주거지)",
+        "address": "부산광역시 동구 영초길197번길 1",
+        "capacity": 27,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 493
+      },
+      {
+        "name": "초1-3(주거지)",
+        "address": "부산광역시 동구 초량상로 91",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 540
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "동구공영주차빌딩",
+        "address": "부산광역시 동구 중앙대로 196번길 12-12(초량동)",
+        "capacity": 152,
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 8000,
+        "distance": 188
+      },
+      {
+        "name": "차이나타운",
+        "address": "부산광역시 동구 중앙대로195번길 23 (초량동)",
+        "capacity": 69,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 15000,
+        "distance": 229
+      },
+      {
+        "name": "부산일보별관",
+        "address": "부산광역시 동구 중앙대로180번길 12 (초량동)",
+        "capacity": 37,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 261
+      },
+      {
+        "name": "왕자빌딩앞",
+        "address": "부산광역시 동구 중앙대로226번길 13-7 (초량동)",
+        "capacity": 14,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 293
+      },
+      {
+        "name": "흥국생명앞",
+        "address": "부산광역시 동구 중앙대로 243",
+        "capacity": 14,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 396
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "초량2동공영",
+        "address": "부산광역시 동구 영초길247번가길 9-6 (초량동",
+        "parkingType": "공영",
+        "baseFee": 300,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 2400,
+        "distance": 726
+      },
+      {
+        "name": "구봉성당복개도로",
+        "address": "부산광역시 동구 구봉로 19",
+        "parkingType": "공영",
+        "baseFee": 300,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 2400,
+        "distance": 816
+      },
+      {
+        "name": "초량6동제2공영주차장",
+        "address": "부산광역시 동구 초량북로 28 (초량동)",
+        "parkingType": "공영",
+        "baseFee": 300,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 2400,
+        "distance": 854
+      },
+      {
+        "name": "영주 공영주차장",
+        "address": "부산광역시 중구 동영로 58",
+        "parkingType": "공영",
+        "baseFee": 300,
+        "baseTime": 30,
+        "addFee": 100,
+        "addTime": 10,
+        "dailyMax": 2400,
+        "distance": 905
+      },
+      {
+        "name": "동구공영주차빌딩",
+        "address": "부산광역시 동구 중앙대로 196번길 12-12(초량동)",
+        "parkingType": "공영",
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 8000,
+        "distance": 188
+      }
+    ]
+  },
+  "haeundae": {
+    "landmark": {
+      "name": "해운대",
+      "slug": "haeundae",
+      "lat": 35.1587,
+      "lng": 129.1604,
+      "category": "지방",
+      "description": "부산 대표 해수욕장"
+    },
+    "total": 5,
+    "free": 2,
+    "paid": 3,
+    "public": 5,
+    "avgBaseFee": 1667,
+    "avgAddFee": 167,
+    "avgDailyMax": 15000,
+    "topFree": [
+      {
+        "name": "해운대로주차장",
+        "address": "부산광역시 해운대구 우동 639-7",
+        "capacity": 19,
+        "weekdayOpen": "10:00",
+        "weekdayClose": "22:00",
+        "distance": 496
+      },
+      {
+        "name": "부산동부지사주차장",
+        "address": "부산광역시 해운대구 해운대해변로 203 628호",
+        "capacity": 10,
+        "weekdayOpen": "09:00",
+        "weekdayClose": "18:00",
+        "distance": 603
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "신일주차장",
+        "address": "부산광역시 해운대구 우동629-2",
+        "capacity": 24,
+        "baseFee": 2000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 15000,
+        "distance": 247
+      },
+      {
+        "name": "GS타임즈 해운대 제3",
+        "address": "부산광역시 해운대구 우동 1305",
+        "capacity": 6,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 333
+      },
+      {
+        "name": "현대주차장",
+        "address": "부산광역시 해운대구 우동 541-16",
+        "capacity": 18,
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 500,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 409
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "GS타임즈 해운대 제3",
+        "address": "부산광역시 해운대구 우동 1305",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 333
+      },
+      {
+        "name": "현대주차장",
+        "address": "부산광역시 해운대구 우동 541-16",
+        "parkingType": "공영",
+        "baseFee": 1500,
+        "baseTime": 30,
+        "addFee": 500,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 409
+      },
+      {
+        "name": "신일주차장",
+        "address": "부산광역시 해운대구 우동629-2",
+        "parkingType": "공영",
+        "baseFee": 2000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 15000,
+        "distance": 247
+      }
+    ]
+  },
+  "seomyeon-station": {
+    "landmark": {
+      "name": "서면역",
+      "slug": "seomyeon-station",
+      "lat": 35.1579,
+      "lng": 129.0597,
+      "category": "지방",
+      "description": "부산 최대 번화가"
+    },
+    "total": 3,
+    "free": 1,
+    "paid": 2,
+    "public": 3,
+    "avgBaseFee": 1500,
+    "avgAddFee": 500,
+    "avgDailyMax": 14500,
+    "topFree": [
+      {
+        "name": "부산중부지사주차장",
+        "address": "부산광역시 부산진구 동천로 116 1215호",
+        "capacity": 10,
+        "weekdayOpen": "09:00",
+        "weekdayClose": "18:00",
+        "distance": 288
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "유원오피스텔 뒤",
+        "address": "부산광역시 부산진구 서면문화로 29-16",
+        "capacity": 12,
+        "baseFee": 2100,
+        "baseTime": 30,
+        "addFee": 700,
+        "addTime": 10,
+        "dailyMax": 21000,
+        "distance": 461
+      },
+      {
+        "name": "경남공고 뒤",
+        "address": "부산광역시 부산진구 전포대로 189번길 30",
+        "capacity": 27,
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 300,
+        "addTime": 10,
+        "dailyMax": 8000,
+        "distance": 579
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "경남공고 뒤",
+        "address": "부산광역시 부산진구 전포대로 189번길 30",
+        "parkingType": "공영",
+        "baseFee": 900,
+        "baseTime": 30,
+        "addFee": 300,
+        "addTime": 10,
+        "dailyMax": 8000,
+        "distance": 579
+      },
+      {
+        "name": "유원오피스텔 뒤",
+        "address": "부산광역시 부산진구 서면문화로 29-16",
+        "parkingType": "공영",
+        "baseFee": 2100,
+        "baseTime": 30,
+        "addFee": 700,
+        "addTime": 10,
+        "dailyMax": 21000,
+        "distance": 461
+      }
+    ]
+  },
+  "daegu-station": {
+    "landmark": {
+      "name": "대구역",
+      "slug": "daegu-station",
+      "lat": 35.8791,
+      "lng": 128.6283,
+      "category": "지방",
+      "description": "대구 도심 중심"
+    },
+    "total": 23,
+    "free": 2,
+    "paid": 21,
+    "public": 23,
+    "avgBaseFee": 819,
+    "avgAddFee": 433,
+    "avgDailyMax": 8381,
+    "topFree": [
+      {
+        "name": "대구동부지사주차장",
+        "address": "대구광역시 동구 동부로 103",
+        "capacity": 10,
+        "weekdayOpen": "09:00",
+        "weekdayClose": "18:00",
+        "distance": 532
+      },
+      {
+        "name": "진로이스트타운",
+        "address": "대구광역시 동구 신암동  373-1",
+        "capacity": 180,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 726
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "동대구맞이주차장",
+        "address": "대구광역시 동구 동대구로 550",
+        "capacity": 56,
+        "baseFee": 1000,
+        "baseTime": 30,
+        "addFee": 1000,
+        "addTime": 10,
+        "dailyMax": 50000,
+        "distance": 57
+      },
+      {
+        "name": "동원빌딩앞주차장",
+        "address": "대구광역시 동구 동부로 22길 27",
+        "capacity": 24,
+        "baseFee": 1000,
+        "baseTime": 30,
+        "addFee": 500,
+        "addTime": 10,
+        "dailyMax": 5000,
+        "distance": 562
+      },
+      {
+        "name": "동원빌딩앞주차장",
+        "address": "대구광역시 동구 동부로 22길 27",
+        "capacity": 24,
+        "baseFee": 1000,
+        "baseTime": 30,
+        "addFee": 500,
+        "addTime": 10,
+        "dailyMax": 5000,
+        "distance": 562
+      },
+      {
+        "name": "동서식품동편주차장",
+        "address": "대구광역시 동구 동부로 22길 46",
+        "capacity": 25,
+        "baseFee": 1000,
+        "baseTime": 30,
+        "addFee": 500,
+        "addTime": 10,
+        "dailyMax": 5000,
+        "distance": 729
+      },
+      {
+        "name": "동서식품동편주차장",
+        "address": "대구광역시 동구 동부로 22길 46",
+        "capacity": 25,
+        "baseFee": 1000,
+        "baseTime": 30,
+        "addFee": 500,
+        "addTime": 10,
+        "dailyMax": 5000,
+        "distance": 729
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "신천3동주차장",
+        "address": "대구광역시 동구 송라로14길 46-2",
+        "parkingType": "공영",
+        "baseFee": 500,
+        "baseTime": 30,
+        "addFee": 250,
+        "addTime": 10,
+        "dailyMax": 5000,
+        "distance": 810
+      },
+      {
+        "name": "신천3동주차장",
+        "address": "대구광역시 동구 송라로14길 46-2",
+        "parkingType": "공영",
+        "baseFee": 500,
+        "baseTime": 30,
+        "addFee": 250,
+        "addTime": 10,
+        "dailyMax": 5000,
+        "distance": 810
+      },
+      {
+        "name": "동대구초등서편주차장",
+        "address": "대구광역시 동구 아양로8길 36",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 300,
+        "addTime": 10,
+        "dailyMax": 6000,
+        "distance": 758
+      },
+      {
+        "name": "동대구초등서편주차장",
+        "address": "대구광역시 동구 아양로8길 36",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 300,
+        "addTime": 10,
+        "dailyMax": 6000,
+        "distance": 758
+      },
+      {
+        "name": "신암3동사무소동편주차장",
+        "address": "대구광역시 동구 아양로8길 22-1",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 300,
+        "addTime": 10,
+        "dailyMax": 6000,
+        "distance": 838
+      }
+    ]
+  },
+  "dongseongro": {
+    "landmark": {
+      "name": "동성로",
+      "slug": "dongseongro",
+      "lat": 35.8694,
+      "lng": 128.5966,
+      "category": "지방",
+      "description": "대구 대표 번화가"
+    },
+    "total": 107,
+    "free": 6,
+    "paid": 101,
+    "public": 107,
+    "avgBaseFee": 873,
+    "avgAddFee": 84,
+    "avgDailyMax": 9850,
+    "topFree": [
+      {
+        "name": "신유료주차장",
+        "address": "대구광역시 중구 중앙대로79길 56",
+        "capacity": 7,
+        "weekdayOpen": "08:00",
+        "weekdayClose": "19:00",
+        "distance": 528
+      },
+      {
+        "name": "대구역북편",
+        "address": "대구광역시 북구 칠성동2가  490-1",
+        "capacity": 23,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 882
+      },
+      {
+        "name": "칠성남로31길인근",
+        "address": "대구광역시 북구 칠성남로 167",
+        "capacity": 6,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 899
+      },
+      {
+        "name": "미니",
+        "address": "대구광역시 북구 칠성남로31길 12-5",
+        "capacity": 5,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 936
+      },
+      {
+        "name": "북부소방서뒤편",
+        "address": "대구광역시 북구 칠성동2가  302-93",
+        "capacity": 24,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 942
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "동성로중앙유료주차장",
+        "address": "대구광역시 중구 동성로2길 80",
+        "capacity": 305,
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 56
+      },
+      {
+        "name": "국제유료주차장",
+        "address": "대구광역시 중구 동성로2길 49-18",
+        "capacity": 50,
+        "baseFee": 1000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 126
+      },
+      {
+        "name": "정호유료주차장",
+        "address": "대구광역시 중구 동성로4길 93(공평동)",
+        "capacity": 11,
+        "baseFee": 1000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 261
+      },
+      {
+        "name": "ZD유료주차장",
+        "address": "대구광역시 중구 동성로2길 21-5",
+        "capacity": 12,
+        "baseFee": 500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 294
+      },
+      {
+        "name": "삼덕유료주차장",
+        "address": "대구광역시 중구 동성로3길 36",
+        "capacity": 17,
+        "baseFee": 2000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 297
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "ZD유료주차장",
+        "address": "대구광역시 중구 동성로2길 21-5",
+        "parkingType": "공영",
+        "baseFee": 500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 294
+      },
+      {
+        "name": "약령시서편주차장",
+        "address": "대구광역시 중구 남성로 61",
+        "parkingType": "공영",
+        "baseFee": 500,
+        "baseTime": 30,
+        "addFee": 250,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 374
+      },
+      {
+        "name": "약령시서편주차장",
+        "address": "대구광역시 중구 남성로 61",
+        "parkingType": "공영",
+        "baseFee": 500,
+        "baseTime": 30,
+        "addFee": 250,
+        "addTime": 10,
+        "dailyMax": 5000,
+        "distance": 374
+      },
+      {
+        "name": "중앙상가유료주차장",
+        "address": "대구광역시 중구 경상감영길 101",
+        "parkingType": "공영",
+        "baseFee": 500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 50000,
+        "distance": 453
+      },
+      {
+        "name": "교동공영주차장",
+        "address": "대구광역시 중구 2길 11",
+        "parkingType": "공영",
+        "baseFee": 500,
+        "baseTime": 30,
+        "addFee": 250,
+        "addTime": 10,
+        "dailyMax": 10000,
+        "distance": 505
+      }
+    ]
+  },
+  "incheon-station": {
+    "landmark": {
+      "name": "인천역",
+      "slug": "incheon-station",
+      "lat": 37.4734,
+      "lng": 126.6214,
+      "category": "지방",
+      "description": "차이나타운·월미도"
+    },
+    "total": 71,
+    "free": 53,
+    "paid": 18,
+    "public": 71,
+    "avgBaseFee": 756,
+    "avgAddFee": 0,
+    "avgDailyMax": 7556,
+    "topFree": [
+      {
+        "name": "자유공원남로노상주차장",
+        "address": "인천광역시 중구 신포로27번길 80(관동1가)",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 76
+      },
+      {
+        "name": "신포로35번길제2노상주차장",
+        "address": "인천광역시 중구 신포로35번길 88(송학동1가)",
+        "capacity": 13,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 99
+      },
+      {
+        "name": "제물량로232번안길노상주차장",
+        "address": "인천광역시 중구 신포로23번길 61(중앙동2가)",
+        "capacity": 9,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 107
+      },
+      {
+        "name": "자유공원남로제2노상주차장",
+        "address": "인천광역시 중구 자유공원남로 12(송학동1가)",
+        "capacity": 3,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 115
+      },
+      {
+        "name": "신포로15번길제1노상주차장",
+        "address": "인천광역시 중구 신포로15번길 77(해안동2가)",
+        "capacity": 19,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 138
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "누들플랫폼공영주차장",
+        "address": "인천광역시 중구 신포로27번길 36(관동2가)",
+        "capacity": 27,
+        "baseFee": 1000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 10000,
+        "distance": 211
+      },
+      {
+        "name": "한중문화관공영주차장",
+        "address": "인천광역시 중구 항동2가  1-1",
+        "capacity": 109,
+        "baseFee": 1000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 10000,
+        "distance": 211
+      },
+      {
+        "name": "신 포 동",
+        "address": "인천광역시 중구 홍예문로 4",
+        "capacity": 71,
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 6000,
+        "distance": 302
+      },
+      {
+        "name": "신포동공영주차장",
+        "address": "인천광역시 중구 해안동4가  1-1",
+        "capacity": 71,
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 6000,
+        "distance": 375
+      },
+      {
+        "name": "차이나타운공영주차장",
+        "address": "인천광역시 중구 차이나타운로44번길 28-12",
+        "capacity": 186,
+        "baseFee": 1000,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 10000,
+        "distance": 399
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "구인천여고공영주차장",
+        "address": "인천광역시 중구 참외전로 100",
+        "parkingType": "공영",
+        "baseFee": 400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 4000,
+        "distance": 826
+      },
+      {
+        "name": "구인천여고",
+        "address": "인천광역시 중구 참외전로 100",
+        "parkingType": "공영",
+        "baseFee": 400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 4000,
+        "distance": 826
+      },
+      {
+        "name": "동인천공영주차장",
+        "address": "인천광역시 중구 큰우물로20번길 3-6",
+        "parkingType": "공영",
+        "baseFee": 400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 4000,
+        "distance": 954
+      },
+      {
+        "name": "동 인 천",
+        "address": "인천광역시 중구 큰우물로 20번길 3-4",
+        "parkingType": "공영",
+        "baseFee": 400,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 4000,
+        "distance": 963
+      },
+      {
+        "name": "신 포 동",
+        "address": "인천광역시 중구 홍예문로 4",
+        "parkingType": "공영",
+        "baseFee": 600,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 6000,
+        "distance": 302
+      }
+    ]
+  },
+  "daejeon-station": {
+    "landmark": {
+      "name": "대전역",
+      "slug": "daejeon-station",
+      "lat": 36.3326,
+      "lng": 127.4343,
+      "category": "지방",
+      "description": "충청권 교통 중심"
+    },
+    "total": 22,
+    "free": 14,
+    "paid": 8,
+    "public": 22,
+    "avgBaseFee": 838,
+    "avgAddFee": 75,
+    "avgDailyMax": 8700,
+    "topFree": [
+      {
+        "name": "역전시장 공영주차장",
+        "address": "대전광역시 동구 원동  406-2",
+        "capacity": 48,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 350
+      },
+      {
+        "name": "신안동 한국철도시설공단 뒷길",
+        "address": "대전광역시 동구 부흥길 68",
+        "capacity": 82,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 381
+      },
+      {
+        "name": "가제교~신안동 320 하상주차장",
+        "address": "대전광역시 동구 소제동  299-453",
+        "capacity": 275,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 454
+      },
+      {
+        "name": "도심형산업지원플랫폼주차장",
+        "address": "대전광역시 동구 중동  10-16",
+        "capacity": 194,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 471
+      },
+      {
+        "name": "신안동 320~신흥초 하상주차장",
+        "address": "대전광역시 동구 대동  248-1",
+        "capacity": 57,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:00",
+        "distance": 638
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "신한은행 노외공영주차장(제2주차장)",
+        "address": "대전광역시 동구 원동  51-12",
+        "capacity": 58,
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 360
+      },
+      {
+        "name": "정동 노외공영주차장",
+        "address": "대전광역시 동구 삼정동  3-4",
+        "capacity": 44,
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 370
+      },
+      {
+        "name": "중앙시장 제3공영주차장",
+        "address": "대전광역시 동구 중동  93-2",
+        "capacity": 53,
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 372
+      },
+      {
+        "name": "중앙시장 공영주차빌딩 주차장(제1주차장)",
+        "address": "대전광역시 동구 중앙로 200번길 70",
+        "capacity": 400,
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 593
+      },
+      {
+        "name": "원동중동 천변 노상",
+        "address": "대전광역시 동구 중동  47-52",
+        "capacity": 62,
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 686
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "신한은행 노외공영주차장(제2주차장)",
+        "address": "대전광역시 동구 원동  51-12",
+        "parkingType": "노외",
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 360
+      },
+      {
+        "name": "정동 노외공영주차장",
+        "address": "대전광역시 동구 삼정동  3-4",
+        "parkingType": "노외",
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 370
+      },
+      {
+        "name": "중앙시장 제3공영주차장",
+        "address": "대전광역시 동구 중동  93-2",
+        "parkingType": "공영",
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 372
+      },
+      {
+        "name": "중앙시장 공영주차빌딩 주차장(제1주차장)",
+        "address": "대전광역시 동구 중앙로 200번길 70",
+        "parkingType": "공영",
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 593
+      },
+      {
+        "name": "원동중동 천변 노상",
+        "address": "대전광역시 동구 중동  47-52",
+        "parkingType": "노상",
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 686
+      }
+    ]
+  },
+  "chungjangro": {
+    "landmark": {
+      "name": "광주 충장로",
+      "slug": "chungjangro",
+      "lat": 35.149,
+      "lng": 126.919,
+      "category": "지방",
+      "description": "광주 대표 상권"
+    },
+    "total": 126,
+    "free": 5,
+    "paid": 121,
+    "public": 126,
+    "avgBaseFee": 795,
+    "avgAddFee": 0,
+    "avgDailyMax": 8756,
+    "topFree": [
+      {
+        "name": "금동 30-17 위락시설 (김길)",
+        "address": "광주광역시 동구 금동  30-17",
+        "capacity": 53,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 505
+      },
+      {
+        "name": "양림동 역사문화마을",
+        "address": "광주광역시 남구 양림동 서서평길 7",
+        "capacity": 184,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 804
+      },
+      {
+        "name": "광주공원앞공영주차장",
+        "address": "광주광역시 남구 구동  2-2",
+        "capacity": 50,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 811
+      },
+      {
+        "name": "양림동공영주차장",
+        "address": "광주광역시 남구 서서평길 20",
+        "capacity": 18,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "00:00",
+        "distance": 944
+      },
+      {
+        "name": "양림동 행정복지센터",
+        "address": "광주광역시 남구 양림동 201-46",
+        "capacity": 13,
+        "weekdayOpen": "00:00",
+        "weekdayClose": "23:59",
+        "distance": 950
+      }
+    ],
+    "topPublic": [
+      {
+        "name": "전일주차장",
+        "address": "광주광역시 동구 서석로 67",
+        "capacity": 20,
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 74
+      },
+      {
+        "name": "예술의거리주차장",
+        "address": "광주광역시 동구 예술길 27-6",
+        "capacity": 20,
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 90
+      },
+      {
+        "name": "성진주차장",
+        "address": "광주광역시 동구 서석로85번길 3",
+        "capacity": 15,
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 125
+      },
+      {
+        "name": "중앙주차장",
+        "address": "광주광역시 동구 서석로85번길 1",
+        "capacity": 16,
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 141
+      },
+      {
+        "name": "자연생활주차장",
+        "address": "광주광역시 동구 서석로 85번길 16",
+        "capacity": 15,
+        "baseFee": 800,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 0,
+        "distance": 157
+      }
+    ],
+    "cheapest": [
+      {
+        "name": "대인시장 공영주차장 제2주차장",
+        "address": "광주광역시 동구 제봉로 194번길 10",
+        "parkingType": "공영",
+        "baseFee": 500,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 6000,
+        "distance": 587
+      },
+      {
+        "name": "궁동 공영주차장",
+        "address": "광주광역시 동구 제봉로 153-4",
+        "parkingType": "공영",
+        "baseFee": 700,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 8000,
+        "distance": 222
+      },
+      {
+        "name": "전남여고뒤 공영주차장",
+        "address": "광주광역시 동구 장동  139",
+        "parkingType": "공영",
+        "baseFee": 700,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 8000,
+        "distance": 276
+      },
+      {
+        "name": "호남동 공영주차장",
+        "address": "광주광역시 동구 천변우로 365",
+        "parkingType": "공영",
+        "baseFee": 700,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 8000,
+        "distance": 693
+      },
+      {
+        "name": "전대병원로타리 공영주차장",
+        "address": "광주광역시 동구 남동  117",
+        "parkingType": "공영",
+        "baseFee": 700,
+        "baseTime": 30,
+        "addFee": 0,
+        "addTime": 10,
+        "dailyMax": 8000,
+        "distance": 720
+      }
+    ]
+  }
+}

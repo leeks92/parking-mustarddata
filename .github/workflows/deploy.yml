@@ -1,0 +1,119 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Submit to IndexNow
+        if: success()
+        run: |
+          URLS='[
+            "https://parking.mustarddata.com/",
+            "https://parking.mustarddata.com/free/",
+            "https://parking.mustarddata.com/compare/",
+            "https://parking.mustarddata.com/region/seoul/",
+            "https://parking.mustarddata.com/region/gyeonggi/",
+            "https://parking.mustarddata.com/region/busan/",
+            "https://parking.mustarddata.com/sitemap.xml"
+          ]'
+
+          curl -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"host\": \"parking.mustarddata.com\",
+              \"key\": \"a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6\",
+              \"keyLocation\": \"https://parking.mustarddata.com/a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6.txt\",
+              \"urlList\": $URLS
+            }" || echo "IndexNow submission failed (non-critical)"
+
+      - name: Submit to Google Indexing API
+        if: success()
+        env:
+          GOOGLE_SERVICE_ACCOUNT_EMAIL: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_EMAIL }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+        run: |
+          if [ -z "$GOOGLE_SERVICE_ACCOUNT_EMAIL" ] || [ -z "$GOOGLE_PRIVATE_KEY" ]; then
+            echo "Google Indexing API credentials not configured, skipping..."
+            exit 0
+          fi
+
+          URLS=(
+            "https://parking.mustarddata.com/"
+            "https://parking.mustarddata.com/free/"
+            "https://parking.mustarddata.com/compare/"
+            "https://parking.mustarddata.com/region/seoul/"
+            "https://parking.mustarddata.com/region/gyeonggi/"
+            "https://parking.mustarddata.com/region/busan/"
+          )
+
+          # JWT 생성
+          HEADER=$(echo -n '{"alg":"RS256","typ":"JWT"}' | openssl base64 -e | tr '+/' '-_' | tr -d '=\n')
+          NOW=$(date +%s)
+          EXP=$((NOW + 3600))
+          PAYLOAD=$(echo -n "{\"iss\":\"$GOOGLE_SERVICE_ACCOUNT_EMAIL\",\"scope\":\"https://www.googleapis.com/auth/indexing\",\"aud\":\"https://oauth2.googleapis.com/token\",\"iat\":$NOW,\"exp\":$EXP}" | openssl base64 -e | tr '+/' '-_' | tr -d '=\n')
+          SIGNATURE=$(echo -n "$HEADER.$PAYLOAD" | openssl dgst -sha256 -sign <(echo "$GOOGLE_PRIVATE_KEY") | openssl base64 -e | tr '+/' '-_' | tr -d '=\n')
+          JWT="$HEADER.$PAYLOAD.$SIGNATURE"
+
+          # Access Token 획득
+          ACCESS_TOKEN=$(curl -s -X POST "https://oauth2.googleapis.com/token" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -d "grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer&assertion=$JWT" | python3 -c "import sys,json; print(json.load(sys.stdin).get('access_token',''))")
+
+          if [ -z "$ACCESS_TOKEN" ]; then
+            echo "Failed to get access token, skipping..."
+            exit 0
+          fi
+
+          for URL in "${URLS[@]}"; do
+            RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" -X POST "https://indexing.googleapis.com/v3/urlNotifications:publish" \
+              -H "Content-Type: application/json" \
+              -H "Authorization: Bearer $ACCESS_TOKEN" \
+              -d "{\"url\":\"$URL\",\"type\":\"URL_UPDATED\"}")
+            echo "Google Indexing: $URL -> $RESPONSE"
+            sleep 0.1
+          done

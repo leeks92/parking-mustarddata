@@ -1,0 +1,9 @@
+node_modules/
+out/
+.next/
+data/raw-facilities.json
+data/raw-operations.json
+data/parking-sample.json
+data/fetch-progress.json
+*.tsbuildinfo
+.DS_Store
