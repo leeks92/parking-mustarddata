@@ -127,19 +127,19 @@ export default function HomePage() {
       <section className="max-w-6xl mx-auto px-4 -mt-8">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           <div className="bg-white rounded-2xl border border-gray-100 p-5 text-center shadow-sm">
-            <div className="text-3xl font-extrabold text-indigo-600">{totalCount}</div>
+            <div className="text-3xl font-extrabold text-indigo-600">{totalCount.toLocaleString()}</div>
             <div className="text-sm text-gray-500 mt-1">전체 주차장</div>
           </div>
           <div className="bg-white rounded-2xl border border-gray-100 p-5 text-center shadow-sm">
-            <div className="text-3xl font-extrabold text-green-600">{freeCount}</div>
+            <div className="text-3xl font-extrabold text-green-600">{freeCount.toLocaleString()}</div>
             <div className="text-sm text-gray-500 mt-1">무료 주차장</div>
           </div>
           <div className="bg-white rounded-2xl border border-gray-100 p-5 text-center shadow-sm">
-            <div className="text-3xl font-extrabold text-blue-600">{typeStats.공영}</div>
+            <div className="text-3xl font-extrabold text-blue-600">{typeStats.공영.toLocaleString()}</div>
             <div className="text-sm text-gray-500 mt-1">공영 주차장</div>
           </div>
           <div className="bg-white rounded-2xl border border-gray-100 p-5 text-center shadow-sm">
-            <div className="text-3xl font-extrabold text-orange-600">{typeStats.민영}</div>
+            <div className="text-3xl font-extrabold text-orange-600">{typeStats.민영.toLocaleString()}</div>
             <div className="text-sm text-gray-500 mt-1">민영 주차장</div>
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function HomePage() {
                 </div>
                 <div className="text-sm text-gray-600 space-y-1">
                   <p>
-                    총 <span className="font-semibold text-gray-900">{count}개</span> 주차장
+                    총 <span className="font-semibold text-gray-900">{count.toLocaleString()}개</span> 주차장
                   </p>
                   <p className="text-gray-400">
                     {region.sigungu.length}개 시군구

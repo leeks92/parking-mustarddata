@@ -31,9 +31,11 @@ body {
     sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@layer base {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 
 /* number input 스피너 제거 */

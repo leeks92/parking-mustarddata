@@ -56,7 +56,7 @@ export default function FreeParkingPage() {
           전국 무료 주차장
         </h1>
         <p className="text-lg text-gray-600 mb-10">
-          전국 {freeLots.length}개 무료 주차장의 위치와 운영시간을 확인하세요.
+          전국 {freeLots.length.toLocaleString()}개 무료 주차장의 위치와 운영시간을 확인하세요.
         </p>
 
         {/* 지역별 무료 주차장 */}
@@ -71,7 +71,7 @@ export default function FreeParkingPage() {
               >
                 <h3 className="text-lg font-bold text-gray-900 mb-2">{r.sido}</h3>
                 <p className="text-sm text-gray-600">
-                  무료 주차장 <span className="font-semibold text-green-700">{r.freeCount}개</span>
+                  무료 주차장 <span className="font-semibold text-green-700">{r.freeCount.toLocaleString()}개</span>
                 </p>
               </Link>
             ))}
@@ -111,7 +111,7 @@ export default function FreeParkingPage() {
                   </div>
                   <div>
                     <span className="text-gray-400">주차면</span>
-                    <p className="font-semibold text-gray-900">{lot.capacity}면</p>
+                    <p className="font-semibold text-gray-900">{lot.capacity.toLocaleString()}면</p>
                   </div>
                   <div>
                     <span className="text-gray-400">운영시간</span>

@@ -78,7 +78,7 @@ export default async function FreeSigunguPage({ params }: PageProps) {
           {sido} {sigungu} 무료 주차장
         </h1>
         <p className="text-lg text-gray-600 mb-10">
-          {sido} {sigungu} 지역 무료 주차장 {freeLots.length}개입니다.
+          {sido} {sigungu} 지역 무료 주차장 {freeLots.length.toLocaleString()}개입니다.
         </p>
 
         {freeLots.length > 0 ? (
@@ -100,7 +100,7 @@ export default async function FreeSigunguPage({ params }: PageProps) {
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div>
                     <span className="text-gray-400">주차면</span>
-                    <p className="font-semibold text-gray-900">{lot.capacity}면</p>
+                    <p className="font-semibold text-gray-900">{lot.capacity.toLocaleString()}면</p>
                   </div>
                   <div>
                     <span className="text-gray-400">운영시간</span>

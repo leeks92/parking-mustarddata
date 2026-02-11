@@ -47,13 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Free parking pages
-  const freePages: MetadataRoute.Sitemap = regions.map((region) => ({
-    url: `${BASE_URL}/free/${sidoToSlug(region.sido)}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.6,
-  }));
+  // Free parking pages (no /free/[sido] route exists, skip to sigungu level)
 
   const freeSigunguPages: MetadataRoute.Sitemap = [];
   for (const region of regions) {
@@ -80,7 +74,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...mainPages,
     ...regionPages,
     ...sigunguPages,
-    ...freePages,
     ...freeSigunguPages,
     ...parkingPages,
   ];

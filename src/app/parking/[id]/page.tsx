@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const feeInfo = lot.isFree ? '무료' : `기본 ${lot.baseFee.toLocaleString()}원/${lot.baseTime}분`;
   return {
     title: `${lot.name} - ${lot.sido} ${lot.sigungu} ${lot.parkingType}주차장`,
-    description: `${lot.name} 주차장 정보. ${lot.address}. ${feeInfo}. 주차면 ${lot.capacity}면. 운영시간, 요금, 위치 정보를 확인하세요.`,
+    description: `${lot.name} 주차장 정보. ${lot.address}. ${feeInfo}. 주차면 ${lot.capacity.toLocaleString()}면. 운영시간, 요금, 위치 정보를 확인하세요.`,
     alternates: { canonical: `${BASE_URL}/parking/${id}` },
     openGraph: {
       title: `${lot.name} - ${lot.parkingType}주차장`,
@@ -71,7 +71,7 @@ export default async function ParkingDetailPage({ params }: PageProps) {
     },
     {
       q: `${lot.name}의 주차 가능 대수는?`,
-      a: `총 ${lot.capacity}면의 주차 공간이 있습니다.`,
+      a: `총 ${lot.capacity.toLocaleString()}면의 주차 공간이 있습니다.`,
     },
   ];
 
@@ -272,7 +272,7 @@ export default async function ParkingDetailPage({ params }: PageProps) {
               </div>
               <div>
                 <span className="text-gray-400">주차 가능 대수</span>
-                <p className="font-semibold text-gray-900">{lot.capacity}면</p>
+                <p className="font-semibold text-gray-900">{lot.capacity.toLocaleString()}면</p>
               </div>
               <div>
                 <span className="text-gray-400">전화번호</span>

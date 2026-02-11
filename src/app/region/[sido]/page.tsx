@@ -79,26 +79,26 @@ export default async function SidoPage({ params }: PageProps) {
           {sido} 주차장
         </h1>
         <p className="text-lg text-gray-600 mb-10">
-          {sido} 지역 {lots.length}개 주차장의 위치, 운영시간, 요금 정보를 시군구별로 확인하세요.
+          {sido} 지역 {lots.length.toLocaleString()}개 주차장의 위치, 운영시간, 요금 정보를 시군구별로 확인하세요.
         </p>
 
         {/* 요약 통계 */}
         <section className="mb-12">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             <div className="bg-gradient-to-br from-indigo-500 to-violet-600 rounded-2xl p-5 text-white text-center">
-              <div className="text-3xl font-extrabold">{lots.length}</div>
+              <div className="text-3xl font-extrabold">{lots.length.toLocaleString()}</div>
               <div className="text-sm text-indigo-100 mt-1">전체 주차장</div>
             </div>
             <div className="bg-white rounded-2xl border border-gray-100 p-5 text-center">
-              <div className="text-3xl font-extrabold text-blue-600">{typeStats.공영}</div>
+              <div className="text-3xl font-extrabold text-blue-600">{typeStats.공영.toLocaleString()}</div>
               <div className="text-sm text-gray-500 mt-1">공영</div>
             </div>
             <div className="bg-white rounded-2xl border border-gray-100 p-5 text-center">
-              <div className="text-3xl font-extrabold text-orange-600">{typeStats.민영}</div>
+              <div className="text-3xl font-extrabold text-orange-600">{typeStats.민영.toLocaleString()}</div>
               <div className="text-sm text-gray-500 mt-1">민영</div>
             </div>
             <div className="bg-white rounded-2xl border border-gray-100 p-5 text-center">
-              <div className="text-3xl font-extrabold text-green-600">{freeCount}</div>
+              <div className="text-3xl font-extrabold text-green-600">{freeCount.toLocaleString()}</div>
               <div className="text-sm text-gray-500 mt-1">무료</div>
             </div>
           </div>
@@ -116,7 +116,7 @@ export default async function SidoPage({ params }: PageProps) {
               >
                 <h3 className="text-lg font-bold text-gray-900 mb-2">{sg.name}</h3>
                 <p className="text-sm text-gray-600">
-                  주차장 <span className="font-semibold text-indigo-600">{sg.parkingCount}개</span>
+                  주차장 <span className="font-semibold text-indigo-600">{sg.parkingCount.toLocaleString()}개</span>
                 </p>
               </Link>
             ))}
